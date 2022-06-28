@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard-user</title>
+  <link rel="stylesheet" href="./db_user.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <div class="db-navbar">
+    <div class="home-navbar-mb">
+      <div class="home-logo">
+        <div class="mb-open-menu" onclick="Open(),Openblur()">&#9776;</div>
+        <img class="img-logo" src="../db_images/alexandru-nitu-jewelry-store-logo-black.png" alt="jewellery-image" width="60px">
+      </div>
+
+      <div class="home-shop-title">
+        <p class="shop-title">KTW Jewellery</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="dashboard-main-container">
+    <div class="dashboard-left-container" id="left-container">
+      <div class="mb-close-menu" onclick="Close(),Closeblur()">
+        <a href="#"><i class="fas fa-times"></i></a>
+      </div>
+      <div class="profile-img">
+        <img src="../db_images/karthik.png" alt="profile">
+      </div>
+      <ul>
+        <li><i class="fas fa-user-alt "></i><a href="./dashboard.html">profile</a></li>
+        <li><i class="far fa-gem"></i></i><a class="jewells-icon" href="">Jewells</a></li>
+        <li><i class="fas fa-sign-out-alt"></i></i><a href="">Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="dashboard-right-container" id="right-container">
+       <div class="welcome_text">
+         <p>Welcome </p> 
+         <p class="sec_text">To KTW Jewellery</p>
+       </div>
+    </div>
+  </div>
+
+<script>
+
+ 
+  function Openblur(){
+    document.getElementById("right-container").style.cssText=` filter:blur(5px)`;
+  }
+  function Open(){
+    document.getElementById("left-container").style.cssText=`width:142px`;
+  }
+ 
+  function Close(){
+    document.getElementById("left-container").style.width="0px";
+  }
+  function Closeblur(){
+    document.getElementById("right-container").style.cssText=` filter:blur(0px)`;
+  }
+</script>
+</body>
+
+</html>

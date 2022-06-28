@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    padding:0;
+    background: radial-gradient(rgb(34, 2, 2),black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(102, 138, 5); */
+    font-family:serif;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+  
+     
+}
+.admin-login-main-container{  
+    width:90%;
+    height: auto;
+    border: 2px solid #af8404;
+    box-shadow:-2px -5px 24px  #af8404 ;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 0px;
+    border-radius:5px;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    
+}
+.admin-login-container{    
+    width: 100%;
+    height:auto;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+.admin-login-container .title p{
+    color:#af8404;
+    font-size:35px;
+    font-weight: 600;
+  
+
+}
+.a_login_form .l_id{
+    color:#d9a508;
+    font-size: 19px;
+    margin-top: 8px;
+}
+.a_login_form .id{
+    background-color:black;
+    color: black;
+     height:30px;
+     width:90%;
+      
+     border: none;
+     border-radius: 3px;
+     font-size:16px;
+     padding:0px 15px;
+
+}
+.a_login_form .id:focus{
+    outline: none;
+}
+
+.a_login_form .u_name{
+    background-color:black;
+    color: black;
+     height:30px;
+     width:90%;
+     
+     border: none;
+     border-radius: 3px;
+     font-size:16px;
+     padding:0px 15px;
+
+}
+.a_login_form .u_name:focus{
+    outline: none;
+}
+
+.a_login_form .u_pwd{
+    background-color:black;
+    color: black;
+     height:30px;
+     width:90%;
+     
+     border: none;
+     border-radius: 3px;
+     font-size:16px;
+     padding:0px 15px;
+
+}
+.a_login_form .u_pwd:focus{
+    outline: none;
+}
+
+.a_login_form  .c_box{
+    height:15px;
+    width:15px;
+    margin-top: 19px;
+    
+}
+.a_login_form .c-box-text{
+    margin-left:5px;
+    color:#d9b02f;
+}
+.a_login_form .c-box-text a{
+     text-decoration: none;
+     color: #d9b02f;
+}
+.a_login_form .sub-btn{
+    border: none;
+    border-radius:3px;
+    height: 27px;
+    width: 70px;
+    background-color: #690d02;
+    color: white;
+}
+.a_login_form .cancel-btn{
+    border: none;
+    border-radius:3px;
+    height: 27px;
+    width: 70px;
+    background-color: #8e5c00;
+    color: white;
+    margin-top: 10px;    
+}
+.a_login_form .forget-pwd-txt a {
+    text-decoration: none;
+     color: #d9b02f;
+     margin-top: 15px;
+}
+.a_login_form .forget-pwd-txt{
+    margin-top:7px;
+}
+.a_login_form .reg-btn{
+    border: none;
+    border-radius:3px;
+    height: 30px;
+    width:100%;
+    background-color:  #6e4a3c;
+    color: #f8ff00;
+    margin-top: 5px;
+}
+.a_login_form .reg-btn a {
+    text-decoration:none;
+     
+    color: #f8ff00;
+    
+}
+.l_gen{
+  margin-left:20px;
+    color:#d9b02f;
+}
+.l_gen-1{
+    margin-left:20px;
+    
+}
+.l_male{
+    color:#d9b02f;
+    margin-left: 5px
+    ;
+}
+
+
+@media (min-width:400px) {
+    .admin-login-container .title p{
+        font-size:35px;
+    }
+    .admin-login-main-container{  
+        width:80%;
+        margin: 0 auto;
+    }
+    .admin-login-container{    
+        width: 90%;        
+    }
+}
+
+@media (min-width:500px) {
+    .admin-login-container .title p{
+        font-size:40px;
+    }
+    .admin-login-main-container{  
+        width:50%;
+        margin: 0 auto;
+    }
+    .admin-login-container{    
+        width: 90%;        
+    }
+}
+
+@media (min-width:1000px) {
+    .admin-login-container .title p{
+        font-size:40px;
+    }
+    .admin-login-main-container{  
+        width:30%;
+        margin: 0 auto;
+    }
+    .admin-login-container{    
+        width: 90%;        
+    }
+}
+
