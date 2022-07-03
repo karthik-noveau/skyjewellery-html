@@ -1,1 +1,447 @@
 
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+     
+}
+
+/* navbar */
+
+.home-navbar{
+    height:150px;
+    width:100%;
+     background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;   
+}
+.home-navbar-mb{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 18px;   
+}
+ 
+.home-shop-title p{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    font-size:30px;
+    /* color:#7d5e00; */
+    color:#a98b43;
+    font-family:Rockwell Extra Bold;
+    font-weight: 600;
+}
+
+
+/* dropdown */
+.home-ddwn-container{
+   display:flex; 
+   border-radius:5px;
+   transition: 0.3s ;
+   
+}
+.about-us p{
+    color:#a98b43;   
+}
+.about-us p:hover{
+    color:#ffd05f;
+}
+
+.jewellery{
+    color:#a98b43;
+    padding-left:14px;
+}
+.jewellery:hover{
+    color:#ffd05f;
+}
+.collection{
+    color:#a98b43;
+    padding-left:14px;
+}
+.collection:hover{
+    color:#ffd05f;
+}
+
+/* dropdown-login */
+.home-ddwn-container .login-btn{
+    border: none;
+    background-color: transparent;
+    padding:0px 10px; 
+    text-align: center;
+    padding-left:14px;    
+    color:#a98b43 ;   
+}
+.home-ddwn-container .login-btn:hover{
+    color:#ffd05f;
+}
+.home-ddwn-container .login-btn:focus{
+    outline:none;
+}
+.login-btn-content{
+    height:0px;
+    width: 100%;
+    background-color: white;
+    background-color: #1f0202ab;
+    overflow:hidden;
+    transition: 0.3s;
+    margin-bottom:10px;  
+}
+.login-btn-content a{
+    display: block;
+    color:#a98b43 ;
+    padding-bottom:9px;
+}
+.log-a-tag{
+    padding-top: 9px;
+}
+.login-btn-content a:hover{
+    text-decoration: none;
+    color:#ffd05f;
+}
+ 
+
+/* dropdown-register */
+.home-ddwn-container .reg-btn{
+    border: none;
+    background-color: transparent;
+     
+    text-align: center;
+   
+    padding-left:14px;
+    color:#a98b43 ;
+}
+.home-ddwn-container .reg-btn:hover{
+    color:#ffd05f;
+}
+.home-ddwn-container .reg-btn:focus{
+    outline:none;
+}
+    .home-ddwn-container .reg-btn{
+        border: none;
+        background-color: transparent;
+        padding:0px 10px; 
+        text-align: center;
+        padding-left:14px;    
+        color:#a98b43 ;   
+    }
+    .home-ddwn-container .reg-btn:hover{
+        color:#ffd05f;
+    }
+    .home-ddwn-container .reg-btn:focus{
+        outline:none;
+    }
+    .reg-btn-content{
+        height:0px;
+        width: 100%;
+        background-color: white;
+        background-color: #1f0202ab;
+        transition: 0.3s; 
+        overflow: hidden;
+    }
+    .reg-btn-content a{
+        display: block;
+        color:#a98b43 ;
+        padding-bottom:9px;
+    }
+    .reg-a-tag{
+        padding-top: 9px;
+    }
+    .reg-btn-content a:hover{
+        text-decoration:none;
+        color:#ffd05f;
+    }
+ /* carousal */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* home- content-container */
+.home-content-container{
+    /* background: radial-gradient(rgb(34, 2, 2),black); */
+    background-color: black;
+    height:100%;
+    width: 100%;
+    
+}
+
+
+/*our-collections */
+
+.our-collections{
+    color:#a28f62;
+    font-size:20px;
+    font-family:century;
+    height:70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#350000,#140101,black);  
+}
+.our-collections p{
+     margin-top:12px;    
+}
+.our-collections-contanier{
+    height:auto;
+    width:80%;
+    margin: 0px auto;
+    margin-top:10px;  
+    padding-bottom: 0px;  
+   
+}
+.our-collections-contanier .our-coll-row-1{
+    width:80%;
+    height:50%;
+   text-align:center;
+   margin:0px auto; 
+}
+.our-collections-contanier .our-coll-row-2{
+    width:80%;
+    height:50%;
+   text-align:center;
+   margin:0px auto; 
+}
+.our-collections-contanier img{
+    width:100%;
+    height:100%;
+    opacity: 0.8;
+}
+.our-collections-contanier img:hover{
+    opacity: 1;
+}
+.row-txt-1 p{
+    color:#a28f62; 
+    margin-top:13px;
+}
+ 
+.row-txt-1{
+    background-color:#1c1a14;
+   height: 30px;
+   width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.row-txt-1:hover{
+    background-color: #af9d67;
+   
+}
+.coll-row1-img-1{
+    margin-top: 60px;
+}
+.coll-row1-img-2{
+    margin-top: 60px;
+}
+
+/* more collections */
+
+.more-collection-sub-text{
+    background-color:#1c1a14;
+    height:32px;
+    width:80%;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+
+}
+.more-collection-text{
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    background: radial-gradient(#4009098a,black);
+    margin-top:30px;
+    height: 60px;
+}
+.more-collection-text p{
+    color:#a28f62; 
+    margin-top:17px;
+    letter-spacing:6px;
+}
+
+/* jewellery-collections */
+.jewellery-collections{
+   
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.jewellery-collections-sub{
+    width:90%;
+   
+    margin-top:25px;
+    display: flex;
+}
+.jewl-coll-img:hover {
+     
+    border-top:5px solid #a28f62;
+}
+.jewl-coll-img img{
+    width:100%;
+    height:100%;
+    opacity: 0.7;
+}
+.jewl-coll-img img:hover{
+    opacity:1;
+}
+
+ 
+
+
+
+/* media quires starting */
+
+@media (max-width:562px) {
+    .home-navbar{
+        height: 70px;
+    }
+    .home-navbar-mb{
+        margin-top: 3px;
+    }
+   .home-ddwn-container{
+      top:52px;
+      right:110px;  
+      transition:0.3s;
+   }
+   .home-shop-title p{  
+      font-size:25px;
+      margin-top: 13px;
+      margin-left:5px;
+  }
+  .hamburger-menu .material-icons{
+      position:absolute;
+      left:10px;
+      top: 18px;
+      color:#805d0a ;
+      font-size:30px;
+      font-weight: lighter;
+      border: 1px solid #ffffffbd;
+      border-radius: 3px;
+      background-color: #ffffffbd;
+      cursor: pointer;
+  }
+  .home-ddwn-container{
+      height:0px ;
+      width:100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      z-index: 2;
+      position: absolute;
+      right: 0px;
+      top: 55px;
+      justify-content: center;
+      align-items:center;
+      display:block;
+      text-align: center;
+      overflow: hidden;
+       
+      margin-top: 11px;    
+  }
+  .about-us{
+      padding: unset;
+      margin-top:18px;     
+  }
+  .jewellery{
+      padding:unset;
+  }
+  .collection{
+      padding: unset;
+  }
+  .home-ddwn-container .login-btn{
+      padding: unset;
+      padding-bottom: 3px;
+  }
+  .home-ddwn-container .reg-btn{
+      padding: unset ;
+      padding-bottom: 14px;
+  }
+  .left-border{
+      display: none;
+  }
+}
+
+
+@media(min-width:562px){
+    .home-navbar{
+        background:radial-gradient(#2d0202,black);
+    }
+    .hamburger-menu .material-icons{
+        display:none;
+    }
+    .home-shop-title p{   
+        margin-top: 13px;
+        margin-left:5px;
+    }
+    /* dropdown-login */
+    .login-btn-content{
+        position: absolute;
+        width:100px;
+        top:125px;
+        text-align: center;
+        z-index:1;
+        background-color:#140000;
+        
+    }
+     /* dropdown-reg */
+     .reg-btn-content{
+        position: absolute;
+        width:98px;
+        top:125px;
+        text-align: center;
+        z-index:1;
+        background-color:#140000;
+    }
+
+    /* our-collection */
+
+    .our-collections{
+        height:120px;
+        font-size:25px;
+    }
+
+    /* our-collection-container */
+
+    .our-collections-contanier{
+        display: flex;
+       
+    }
+    .coll-row1-img-1{
+      padding:20px;
+    }
+    .coll-row1-img-2{
+        padding:20px;
+      
+    }
+    .our-collections-contanier .our-coll-row-2{
+        
+       margin:2px auto; 
+    }
+    .row-txt-1{
+       height: 50px;
+       font-size:20px;
+          
+    }
+
+    /* more collections */
+    .more-collection-text p{
+         
+         font-size:25px;
+         
+    }
+    .more-collection-sub-text{
+        height:48px;
+    }
+}
+
+ 
+ 
+
+ 
+ 
